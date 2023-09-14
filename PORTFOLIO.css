@@ -1,0 +1,590 @@
+body{
+
+    color: #fcf7f7;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+    
+    
+
+
+#navbar{
+    float: right;
+    width: 100%;
+    list-style: none;
+    display: inline;
+    padding: 1px; 
+    cursor: pointer;
+    overflow: hidden;
+text-align: center;
+background-color: rgba(248, 239, 239, 0.1);
+
+   
+
+}
+#navbar span:hover{
+    opacity: 0.4;
+    color: rgb(8, 8, 8);
+}
+#navbar li{
+    font-size: 0.5rem;
+    display: inline ;
+    width: 100px;
+    border-style: none;
+    margin: 0%;
+}
+#navbar a{
+    font-size: 0.1rem;
+    color: white;
+    text-decoration: none;
+    position: initial;
+  padding: 10px 10px;
+    font-weight: bolder;
+    
+}
+#main-header{
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 0;
+}
+
+img {
+    border-radius: 50%;
+    position: relative;
+    top: 33px;
+    left: 8rem;
+    right: 10px;
+    bottom: 0%;
+    height: 50px;
+    width: 50px;
+}
+h1{
+    padding-top: 19rem;
+    text-align: center;
+}
+h3{
+    padding-top: 1rem;
+    text-align: center;
+    font-size: 4rem;
+}
+.pic{
+    padding-top: 4rem;
+    width: 100%;
+    max-width: 568px;
+    margin: auto; 
+    
+
+}
+.intro{
+    font-size: 35px;
+    text-align: center;
+}
+.cont{
+    width: 100%;
+    padding-left: 2px;
+}
+
+
+.coco ul{
+     color: white;
+    text-decoration: none;
+  
+    text-align: center;
+    padding-right: 20px;
+    padding-top: 1rem;
+   
+}  
+
+
+.coco a{
+    font-size: 45px;
+   text-decoration: none ;
+   position: initial;
+   color: white;
+   padding: 10px 10px;
+   
+ 
+}
+.uu{
+    padding-top: 1rem;
+    padding-left: 18rem;
+}
+.coco li{
+      text-align: left;
+      font-size: 35px;
+      display: inline ;
+      width: 100px;
+      border-style: none;
+}
+#head{
+    padding-left: 25px;
+    padding-top: 10px;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 25px;
+
+}
+.pic-1{
+    
+    padding-left: 18rem;
+   
+}
+.navi{
+
+   font-size: 30px;
+  text-decoration:none;
+    
+   
+    
+}
+.main-head{
+    font-size: 60px;
+    font-weight: bold;
+    padding-top: 2rem;
+    
+    text-align: center;
+}
+#biodata{
+  height: 50px;
+}
+.bbb a{
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+}
+.cont{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+.person {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+.conta a{
+     padding-top: 4rem;
+    font-size: 40px;
+    text-decoration: none ;
+    position: initial;
+    color: white;
+    font-weight: bolder;
+   
+}
+.conta ul{
+    color: white;
+    text-decoration: none;   
+
+}
+.conta li{
+    text-decoration: none;
+    border-style: none;
+}
+.ooo a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 2rem;
+    padding-top: 9rem;
+    padding-bottom: 5rem;
+
+   
+    
+}
+.BACK a{
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    text-align: left;
+    font-weight: bolder;
+}
+#biodata img{
+    width: 200px;
+    height: 200px;
+}
+
+a:hover {
+  
+    color: gray;
+  }
+.effect:hover{
+    color: gray;
+}
+#navbar a:hover{
+    color: gray;
+    
+}
+.bordeline{
+    background-color: gray;
+}
+.Contacts{
+    width: 100%;
+    height: 280px;
+    background-color: rgb(29, 28, 28);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#contact{
+    padding-top: 3rem;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa {
+      padding-top: 4rem;
+      padding-right: 2rem;
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  /* Set a specific color for each brand */
+  .icons{
+      padding-top: 3rem;
+      text-align: center;
+  }
+  /* Facebook */
+  .fa-facebook {
+    background: white;
+    color: rgb(0, 0, 0);
+    padding-right: 1rem;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    padding-right: 1rem;
+  }
+  .fa-instagram{
+      background: #fdfdfd;
+      color: rgb(0, 0, 0);
+      padding-right: 1rem;
+  }
+  
+footer{
+    font-size: 1.5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.recent{
+    margin-top: 2rem;
+    padding-top: 2rem;
+    background-color: rgba(163, 163, 163, 0.1);
+    border: 3px solid white;
+    
+    
+}
+.par-1{
+    color: white;
+}
+/* OUR RECENT WORKS start*/
+#header-4{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.portfolio {
+    background-color: rgba(163, 163, 163, 0.1);
+    color: white;
+    border: 3px solid white;
+    
+    padding-top: 15px;
+    padding-bottom: 15px ;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 3rem;
+    
+    
+}
+
+
+.portfolioclass {
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding-bottom: 40px;
+    padding-top: 10px;
+}
+
+.portfolio__item {
+    background: var(--clr-accent);
+    overflow: hidden;
+    padding-top: 0px;
+    border-radius: 5%;
+}
+
+.portfolio__img {
+    transition: 
+        transform 750ms cubic-bezier(.5, 0, .5, 1);
+        opacity 250ms linear;
+        padding-top: 10px;
+        border-radius: 10%;
+        
+}
+
+.portfolio__img:hover {
+    transform: scale(1.2);
+    opacity: .5;
+    
+}
+
+/* OUR RECENT WORKS end*/
+#protest{
+    background-color: none;
+}
+@media (min-width: 300px ){
+  
+    h1{
+        font-size: 2rem;
+    }
+    h3{
+        padding-top: 2rem;
+        font-size: 3rem;
+    }
+
+    #navbar {
+        justify-content: initial;
+        
+
+    }
+    #navbar a{
+        font-size: 1.5rem;
+    }
+    #head p{
+        font-size: 1.1rem;
+    }
+    img {
+        max-width: 100%;
+        width: 250px;  
+        height: 250px;
+      }
+    
+    
+    .pic{
+        padding-top: 2rem;
+        padding-left: 2rem;
+    }
+    .BACK{
+        padding-top: 8rem;
+       
+    }
+    .pict{
+       margin-left: 0;
+    }
+
+
+    body { 
+        background-image: url('PIC/tress.jpg'); 
+        background-size: cover;
+        position: initial;
+       
+        
+   }
+   .intro-2{
+       font-size: 1.7rem;
+   }
+   .par-1{
+       font-size: 1.5rem;
+   }
+  .intro-3{
+      font-size: 1.5rem;
+  }
+  .intro-3 ul li a{
+      text-decoration: none;
+      
+  }
+  .intro-3 li{
+      text-decoration: none;
+      list-style: none;
+  }
+  #app{
+      font-size: 1.5rem;
+  }
+  #app li{
+      list-style: none;
+  }
+   /*about*/
+   .intro{
+       font-size: 1.7rem;
+   }
+   .pic-1{
+       padding-left: 2rem;
+   }
+
+   /*contact*/
+   #heading{
+       font-size: 2rem;
+   }
+   .coco a{
+       font-size: 1.7rem;
+   }
+   .uu{
+       padding-left: 1rem;
+       height: auto;
+   }
+   .conta a{
+       font-size: 1.9rem;
+   }
+   /*BIODATA*/
+   .main-head{
+       font-size: 3rem;
+   }
+   .person{
+       font-size: 1.5rem;
+       padding-left: 3rem;
+   }
+   #biodata{
+       width: 200px;
+       height: 200px;
+       padding-bottom: 4rem;
+   }
+   .content{
+       font-size: 1.5rem;
+   }
+   
+   .cont{
+    font-size: 1.5rem;    
+   }
+   .school{
+    width: 200px;
+    height: 200px;
+    padding-bottom: 4rem;   
+   }
+   .ooo{
+       font-size: 1rem;
+   }
+}
+
+  
+      
+
+@media only screen and (min-width: 992px) {
+    h1{
+        font-size: 2.8rem;
+    }
+    #navbar a{
+        font-size: 1rem;
+    }
+    #head {
+        font-size: 2.1rem;
+    }
+    /*About*/
+
+    .intro{
+        font-size: 1.8rem;
+    }
+    .pic-1{
+        width: 180px;
+        height: 80px;
+        padding-left: 19rem;
+    }
+    .BACK{
+        padding-top: 11rem;
+    }
+    /*contact*/
+   #heading{
+    font-size: 3rem;
+}
+.coco a{
+    font-size: 2rem;
+}
+.uu{
+    padding-left: 17rem;
+    height: auto;
+}
+.conta a{
+    font-size: 2.1rem;
+}
+/*BIODATA*/
+.main-head{
+    font-size: 4.3rem;
+    padding-bottom: 3rem;
+    padding-left: 18.1rem;
+}
+.person{
+    font-size: 1.8rem;
+    padding-top: 1rem;
+    padding-left: 0;
+    
+}
+#biodata{
+    width: 450px;
+    height: 450px;
+   float: right;
+   padding-right: 7rem;
+    padding-bottom: 1rem;
+    
+}
+.content{
+    font-size: 1.8rem;
+}
+
+.cont{
+ font-size: 1.5rem;    
+}
+.school{
+ width: 400px;
+ height: 400px;
+ float: right;
+ padding-bottom: 4rem;   
+}
+.ooo{
+    font-size: 1rem;
+}
+}
+
+
+@media only screen and (min-width: 1200px) {
+    h1{
+        font-size: 3rem;
+    }
+    #navbar a{
+        font-size: 2rem;
+    }
+    #head {
+        font-size: 2rem;
+    }
+    /*About*/
+
+    .intro{
+        font-size: 1.8rem;
+    }
+    .pic-1{
+        width: 200px;
+        height: 100px;
+        padding-left: 22rem;
+    }
+    .BACK{
+        padding-top: 15rem;
+    }
+
+   /*contact*/
+   .uu{
+    padding-left: 21rem;
+    height: auto;
+}
+    
+}
